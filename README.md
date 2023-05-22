@@ -13,6 +13,7 @@ Please make sure to set the desired environment where you want to create, search
 
 ## Additional notes:
 * The Script will automatically change the execution policy "Set-ExecutionPolicy RemoteSigned"
+* For security reasons, it is recommended that each user logs in using their own Azure credentials instead of using pre-defined login variables in the script.
 * Please make sure to review and update the resource names and settings in the script according to your requirements before running it.
 * The script checks for an existing Resource Group and its associated resources based on the environment selection. If the Resource Group or resources already exist, it will display their details.
 * You can customize the script further to include additional resource management operations or modify the existing ones.
